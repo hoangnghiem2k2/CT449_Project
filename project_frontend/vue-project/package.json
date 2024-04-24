@@ -1,0 +1,29 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.2",
+    "axios": "^1.6.8",
+    "bootstrap": "^4.6.2",
+    "date-fns": "^3.6.0",
+    "jquery": "^3.6.0",
+    "mdb-vue-ui-kit": "^5.0.0",
+    "popper.js": "^1.16.1",
+    "vee-validate": "^4.6.6",
+    "vue": "^3.4.21",
+    "vue-router": "^4.1.4",
+    "vuex": "^4.1.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.1.6"
+  }
+}

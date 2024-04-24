@@ -1,0 +1,48 @@
+/* Định dạng các nhóm field */
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Định dạng các nhãn */
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: greenyellow;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .error-feedback {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .has-error input[type="text"],
+  .has-error input[type="password"] {
+    border-color: red;
+  }
+  
+  .has-success input[type="text"],
+  .has-success input[type="password"] {
+    border-color: blue;
+  }
+  
