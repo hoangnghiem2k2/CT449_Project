@@ -45,7 +45,7 @@
           <router-link v-if="getUser === null" :to="{ name: 'login' }" class="btn btn-warning me-2 ">Đăng nhập</router-link>
           <router-link v-if="getUser === null" :to="{ name: 'register' }" class="btn btn-warning ml-5">Đăng ký</router-link>
         </div>
-        
+         
       </div>
     </div>
   </nav>
